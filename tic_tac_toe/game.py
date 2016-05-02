@@ -120,7 +120,7 @@ class Game:
       if self._check_array(section, symbol):
         return True
 
-    if len(self.valid_moves()) == 0:
-      raise GameTied
+    #if len(self.valid_moves()) == 0:
+      #raise GameTied
 
     return False
