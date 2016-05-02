@@ -1,6 +1,6 @@
 import xmlrpclib
 
-server = xmlrpclib.ServerProxy("http://127.0.0.1:8000")
+server = xmlrpclib.ServerProxy("http://localhost:8000")
 clientId = server.create_game()
 print server.start_game(clientId)
 
