@@ -73,7 +73,8 @@ class TicTacToeThread(threading.Thread):
 			return self.winner()
 		if self.game.check_winner('O'):
 			return self.loser()
-		return self.game_tied()			
+		else:
+			return self.game_tied()
 			
 	def game_over(self):	  
 	  return self.print_file('images/game_over.txt')
