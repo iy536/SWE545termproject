@@ -31,11 +31,11 @@ Checks the user input is valid or not. If the tic tac toe board size is 3, the v
 server.print_result(clientId)
 	After the game is finished, the command must be called to display the result of the game. 
 
-	If the user wins, displays "Winner" banner
+  *	If the user wins, displays "Winner" banner
 
-	If the computer wins, displays "Loser" banner
+  *	If the computer wins, displays "Loser" banner
 
-	If the game ties, displays "Game Tied"
+  *	If the game ties, displays "Game Tied"
 
 server.end_game(clientId)
 	Ends the game. When this command is called, server kills the thread which is attached to this client
